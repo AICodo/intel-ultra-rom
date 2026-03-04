@@ -1,7 +1,7 @@
 # intel-ultra-rom
 build ROM files for Intel Ultra 1th-2th Gen iGPU passthrough in PVE VMs（intel ultra 1-2代pve虚拟机核显直通使用rom）use source https://github.com/tomitamoeko/VfioIgdPkg
 
-intel 6-14代pve虚拟机核显直通请使用 https://github.com/lixiaoliu666/intel6-14rom
+intel 6-14代pve虚拟机核显直通请使用 intel6-14rom
 
 intel ultra 1-2代pve虚拟机核显直通使用rom 使用说明，只支持qemu 10及以上（不支持qemu 7 8 9）
 
@@ -9,7 +9,7 @@ dpkg -l|grep kvm 运行这个命名，查看qemu版本，下面的10.0.2-1代表
 
 ii pve-qemu-kvm             10.0.2-4              amd64    Full virtualization on x86 hardware
 
-可以使用我的项目 https://github.com/lixiaoliu666/pve-anti-detection 的10.0版本deb实现q35有bios画面pve核显直通。
+可以使用我的项目 pve-anti-detection 的10.0版本deb实现q35有bios画面pve核显直通。
 
 交流qq群 363074875（666)
 
@@ -27,7 +27,7 @@ intel核显直通ultra 1-2代统一使用ovmf+i440fx机型（i440fx至少10.0以
 
 ①、首先下载本项目
 
-git clone https://github.com/lixiaoliu666/intel-ultra-rom 可能会断掉，请多试几次。你可以使用代理加速（如何切换git clone后的版本自行百度）。 因为只使用编译后的efi以及生成的rom
+git clone intel-ultra-rom 可能会断掉，请多试几次。你可以使用代理加速（如何切换git clone后的版本自行百度）。 因为只使用编译后的efi以及生成的rom
 
 ②、进入intel-ultra-rom目录运行一下 bash build_efi_rom.sh 成功
 
