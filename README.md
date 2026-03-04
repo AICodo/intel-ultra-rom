@@ -11,7 +11,6 @@ ii pve-qemu-kvm             10.0.2-4              amd64    Full virtualization o
 
 可以使用我的项目 pve-anti-detection 的10.0版本deb实现q35有bios画面pve核显直通。
 
-交流qq群 363074875（666)
 
 一、关于虚拟机机型设置：
 
