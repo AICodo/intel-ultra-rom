@@ -15,7 +15,7 @@ ii pve-qemu-kvm             10.0.2-4              amd64    Full virtualization o
 
 一、关于虚拟机机型设置：
 
-intel核显直通ultra 1-2代统一使用ovmf+i440fx机型（i440fx至少10.0以上到最新都可以），当然也支持ovmf+q35 10（详细请看 https://www.bilibili.com/read/cv41702099 ）
+intel核显直通ultra 1-2代统一使用ovmf+i440fx机型（i440fx至少10.0以上到最新都可以），当然也支持ovmf+q35
 
 二、关于编译源码：
 
@@ -116,7 +116,7 @@ UBU 1.79.17下载地址：https://pan.baidu.com/s/1pD7NqJoOThQawJw59NyTHQ 提取
 
 ①、到你机器的官网去下载
 
-②、用AMI bios（ami固件）提取工具 直接提取 类似教程详见 https://www.bilibili.com/read/cv25423474/ 提取物理机bios 部分
+②、用AMI bios（ami固件）提取工具 直接提取
 
 ## Star History
 
